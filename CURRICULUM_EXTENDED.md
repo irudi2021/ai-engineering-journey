@@ -1,12 +1,16 @@
 # Extended Curriculum — Week 10 & Week 11
 
+> 📅 **Dates below reflect the locked schedule update of 31 July 2026**
+> (4-week pause 3–30 Aug; weeks 5–12 shifted +28 days).
+> See [`SCHEDULE.md`](SCHEDULE.md) — it is the authoritative source for all dates.
+
 Added to the original 10-week syllabus to cover AI Security and Cloud-Native LLMOps
 before the Capstone (moved to Week 12).
 
 ---
 
 ## WEEK 10 · AI Security, Red Teaming & Responsible AI
-*Sep 7 – Sep 13*
+*Oct 5 – Oct 11, 2026*
 
 ### Goal
 Learn how to attack and defend LLM-powered systems. Build production-grade guardrails.
@@ -44,7 +48,7 @@ Security is not a feature — it's a property of the system. Design:
 ---
 
 ## WEEK 11 · Cloud-Native AI Deployment, LLMOps & Synthetic Data Engineering
-*Sep 14 – Sep 20*
+*Oct 12 – Oct 18, 2026*
 
 ### Goal
 Deploy AI systems to production at scale. Build CI/CD pipelines for AI. Generate and manage
@@ -89,7 +93,7 @@ Before any AI system goes live, validate:
 ---
 
 ## WEEK 12 · Capstone Project — Enterprise AI Assistant
-*Sep 21 – Sep 27*
+*Oct 19 – Oct 25, 2026*
 
 One integrated system wiring RAG + Agents + Eval + Security + Cloud Deploy,
 defended with ADRs, C4 diagrams, NFRs, and a risk & cost analysis.
@@ -115,3 +119,4 @@ defended with ADRs, C4 diagrams, NFRs, and a risk & cost analysis.
 ---
 
 *Extended by student on July 4, 2026 — Weeks 10 & 11 added, Capstone moved to Week 12.*
+*Dates updated 31 July 2026 per the locked schedule change (see `SCHEDULE.md`).*
