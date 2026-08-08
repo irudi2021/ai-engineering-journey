@@ -18,6 +18,7 @@ A 12-week hands-on curriculum — From LLM Foundations to Production-Grade AI Sy
 >
 > 📅 **[`SCHEDULE.md`](SCHEDULE.md) is the authoritative source for all dates.**
 > 📘 **[`CURRICULUM_PHASE2.md`](CURRICULUM_PHASE2.md) is the content authority for Weeks 5–12.**
+> 📕 **[Complete Syllabus PDF](AI_Engineering_Complete_Syllabus_Weeks1-12.pdf)** — all 12 weeks in one reference document.
 >
 > **Content lock (2 Aug 2026):** a coverage audit of the Phase 1 corpus found harness,
 > loop and context engineering under-covered. Weeks 5–6 are rewritten day-by-day to teach
