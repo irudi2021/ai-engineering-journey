@@ -9,6 +9,11 @@
 > **Revision history**
 > - r1 (31 Jul 2026): pause after Day 28, resume 31 Aug 2026
 > - **r2 (2 Aug 2026): resume moved +14 days to 14 Sep 2026** ← current
+>
+> **Content lock (2 Aug 2026):** Weeks 5–6 rewritten day-by-day to add
+> **Harness Engineering**, **Loop Engineering** and **Context Engineering** as named
+> topics, following a coverage audit of the Phase 1 corpus.
+> See 📘 [`CURRICULUM_PHASE2.md`](CURRICULUM_PHASE2.md) — content authority for Phase 2.
 
 ---
 
@@ -106,14 +111,41 @@ No teaching days. 42 days (6 weeks).
 
 | Week | Days | Dates | Theme | Project |
 |------|------|-------|-------|---------|
-| 05 | 29–35 | **Sep 14–20** | Agents & Tool Calling | Tool-Calling Agent (PORTFOLIO) |
-| 06 | 36–42 | Sep 21–27 | MCP, Context Engineering & Multi-Agent | MCP Server + Multi-Agent Pipeline (PORTFOLIO) |
+| 05 | 29–35 | **Sep 14–20** | **Agents, Harness & Loop Engineering** | Tool-Calling Agent (PORTFOLIO) |
+| 06 | 36–42 | Sep 21–27 | **Context Engineering, MCP & Multi-Agent** | MCP Server + Multi-Agent Pipeline (PORTFOLIO) |
 | 07 | 43–49 | Sep 28–Oct 4 | Evaluation & Production Applications | Eval & Observability Platform (PORTFOLIO) |
 | 08 | 50–56 | Oct 5–11 | Agentic System Design | Scalable Agent Runtime (MINI) |
 | 09 | 57–63 | Oct 12–18 | Multimodal & Reasoning Models | Multimodal Document Processor (PORTFOLIO) |
 | 10 | 64–70 | Oct 19–25 | AI Security, Red Teaming & Responsible AI | Red Team Your Own RAG System (PORTFOLIO) |
 | 11 | 71–77 | Oct 26–Nov 1 | Cloud-Native Deployment, LLMOps & Synthetic Data | Deploy Production AI Service (PORTFOLIO) |
 | 12 | 78–84 | Nov 2–8 | **Capstone** — Enterprise AI Assistant | Full Capstone (CAPSTONE) |
+
+### Week 5 Day-by-Day — Days 29–35 · 14–20 Sep 2026
+
+| Day | Date | Topic |
+|-----|------|-------|
+| 29 | Mon Sep 14 | Agent Architectures Beyond ReAct |
+| 30 | Tue Sep 15 | **Harness Engineering I — Tool Design** |
+| 31 | Wed Sep 16 | **Harness Engineering II — Responses, Errors & Environment** |
+| 32 | Thu Sep 17 | **Loop Engineering I — Termination & Budgets** |
+| 33 | Fri Sep 18 | **Loop Engineering II — Recovery & Sub-Agents** |
+| 34 | Sat Sep 19 | Agent Frameworks & Human-in-the-Loop |
+| 35 | Sun Sep 20 | **Week 5 Project** — Tool-Calling Agent |
+
+### Week 6 Day-by-Day — Days 36–42 · 21–27 Sep 2026
+
+| Day | Date | Topic |
+|-----|------|-------|
+| 36 | Mon Sep 21 | **Context Engineering I — The Context Budget** |
+| 37 | Tue Sep 22 | **Context Engineering II — Compaction & Progressive Disclosure** |
+| 38 | Wed Sep 23 | MCP Fundamentals |
+| 39 | Thu Sep 24 | Building a Production MCP Server |
+| 40 | Fri Sep 25 | Multi-Agent Communication & Handoffs |
+| 41 | Sat Sep 26 | Agent Memory Architectures |
+| 42 | Sun Sep 27 | **Week 6 Project** — MCP Server + Multi-Agent Pipeline |
+
+Weeks 7–12 are specified at week level in `CURRICULUM_PHASE2.md` and expanded
+day-by-day before each week begins.
 
 ---
 

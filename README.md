@@ -2,7 +2,7 @@
 
 A 12-week hands-on curriculum — From LLM Foundations to Production-Grade AI Systems.
 
-**Topics:** LLMs · Fine-Tuning · RAG · Agents · MCP · Evals · System Design · Multimodal · Security · LLMOps
+**Topics:** LLMs · Fine-Tuning · RAG · Agents · MCP · Evals · Guardrails · Harness Engineering · Loop Engineering · Context Engineering · System Design · Multimodal · Security · LLMOps
 
 **Start:** July 6, 2026 · **End:** November 8, 2026
 
@@ -17,6 +17,11 @@ A 12-week hands-on curriculum — From LLM Foundations to Production-Grade AI Sy
 > from 5 onward has shifted **+42 days**. The series now ends **8 November 2026**.
 >
 > 📅 **[`SCHEDULE.md`](SCHEDULE.md) is the authoritative source for all dates.**
+> 📘 **[`CURRICULUM_PHASE2.md`](CURRICULUM_PHASE2.md) is the content authority for Weeks 5–12.**
+>
+> **Content lock (2 Aug 2026):** a coverage audit of the Phase 1 corpus found harness,
+> loop and context engineering under-covered. Weeks 5–6 are rewritten day-by-day to teach
+> all three explicitly — no extra weeks added.
 
 ---
 
@@ -46,8 +51,8 @@ Each week folder contains:
 
 | Week | Theme | Topic | Project | Dates |
 |------|-------|--------|---------|-------|
-| 05 | AGENTS | AI Agents & Tool Calling | Tool-Calling Agent (PORTFOLIO) | **Sep 14–20** |
-| 06 | ORCHESTRATION | MCP, Context Engineering & Multi-Agent | MCP Server + Multi-Agent Pipeline (PORTFOLIO) | Sep 21–27 |
+| 05 | AGENTS | **Agents, Harness & Loop Engineering** | Tool-Calling Agent (PORTFOLIO) | **Sep 14–20** |
+| 06 | ORCHESTRATION | **Context Engineering, MCP & Multi-Agent** | MCP Server + Multi-Agent Pipeline (PORTFOLIO) | Sep 21–27 |
 | 07 | PRODUCTION | Evaluation & AI Applications in Production | Eval & Observability Platform (PORTFOLIO) | Sep 28–Oct 4 |
 | 08 | SYSTEM DESIGN | Agentic System Design | Scalable Agent Runtime (MINI) | Oct 5–11 |
 | 09 | MULTIMODAL | Image, Multimodal & Reasoning Models | Multimodal Document Processor (PORTFOLIO) | Oct 12–18 |
