@@ -11,9 +11,15 @@
 > - **r2 (2 Aug 2026): resume moved +14 days to 14 Sep 2026** ← current
 >
 > **Content lock (2 Aug 2026):** Weeks 5–6 rewritten day-by-day to add
-> **Harness Engineering**, **Loop Engineering** and **Context Engineering** as named
-> topics, following a coverage audit of the Phase 1 corpus.
-> See 📘 [`CURRICULUM_PHASE2.md`](CURRICULUM_PHASE2.md) — content authority for Phase 2.
+> **Harness Engineering**, **Loop Engineering** and **Context Engineering** as named topics.
+>
+> **MERGE LOCK m1 (2 Aug 2026):** an incoming 4-month syllabus has been absorbed into all
+> 12 weeks — **no weeks added**. Adds classical ML, deep learning & computer vision,
+> classical NLP, FastAPI/software-engineering depth, named agentic frameworks
+> (LangChain, LangGraph, CrewAI, AG2/AutoGen/Agno, LangSmith), cloud infrastructure
+> detail, and the complete no-code / AI-productivity block.
+> See 📗 [`CURRICULUM_MASTER.md`](CURRICULUM_MASTER.md) — **complete content authority
+> for Weeks 1–12**, superseding `CURRICULUM_PHASE2.md`.
 
 ---
 
@@ -111,14 +117,14 @@ No teaching days. 42 days (6 weeks).
 
 | Week | Days | Dates | Theme | Project |
 |------|------|-------|-------|---------|
-| 05 | 29–35 | **Sep 14–20** | **Agents, Harness & Loop Engineering** | Tool-Calling Agent (PORTFOLIO) |
-| 06 | 36–42 | Sep 21–27 | **Context Engineering, MCP & Multi-Agent** | MCP Server + Multi-Agent Pipeline (PORTFOLIO) |
-| 07 | 43–49 | Sep 28–Oct 4 | Evaluation & Production Applications | Eval & Observability Platform (PORTFOLIO) |
-| 08 | 50–56 | Oct 5–11 | Agentic System Design | Scalable Agent Runtime (MINI) |
-| 09 | 57–63 | Oct 12–18 | Multimodal & Reasoning Models | Multimodal Document Processor (PORTFOLIO) |
-| 10 | 64–70 | Oct 19–25 | AI Security, Red Teaming & Responsible AI | Red Team Your Own RAG System (PORTFOLIO) |
-| 11 | 71–77 | Oct 26–Nov 1 | Cloud-Native Deployment, LLMOps & Synthetic Data | Deploy Production AI Service (PORTFOLIO) |
-| 12 | 78–84 | Nov 2–8 | **Capstone** — Enterprise AI Assistant | Full Capstone (CAPSTONE) |
+| 05 | 29–35 | **Sep 14–20** | Agents, Harness & Loop Engineering + Agentic Frameworks | AI Research Agent with Tool Calling (PORTFOLIO) |
+| 06 | 36–42 | Sep 21–27 | Context Engineering, MCP & Multi-Agent Frameworks | Multi-Agent Business Analyst System (PORTFOLIO) |
+| 07 | 43–49 | Sep 28–Oct 4 | Production AI Systems, Evaluation & Observability | Eval & Observability Platform (PORTFOLIO) |
+| 08 | 50–56 | Oct 5–11 | **AI Application Engineering & Agentic System Design** | End-to-End AI Backend + Agent Runtime (PORTFOLIO) |
+| 09 | 57–63 | Oct 12–18 | **Machine Learning & Deep Learning Foundations** | ML & DL Project Development (PORTFOLIO) |
+| 10 | 64–70 | Oct 19–25 | **NLP, Multimodal, Reasoning & Red Teaming** | NLP & Multimodal Projects + Red Team (PORTFOLIO) |
+| 11 | 71–77 | Oct 26–Nov 1 | **Cloud Deployment, AI Infrastructure & LLMOps** | Deploy Production AI Service (PORTFOLIO) |
+| 12 | 78–84 | Nov 2–8 | **No-Code AI Platforms & Enterprise Capstone** | Enterprise Multi-Document RAG Assistant (CAPSTONE) |
 
 ### Week 5 Day-by-Day — Days 29–35 · 14–20 Sep 2026
 
@@ -144,8 +150,55 @@ No teaching days. 42 days (6 weeks).
 | 41 | Sat Sep 26 | Agent Memory Architectures |
 | 42 | Sun Sep 27 | **Week 6 Project** — MCP Server + Multi-Agent Pipeline |
 
-Weeks 7–12 are specified at week level in `CURRICULUM_PHASE2.md` and expanded
-day-by-day before each week begins.
+### Weeks 7–12 Day-by-Day
+
+| Day | Date | Topic |
+|-----|------|-------|
+| 43 | Mon Sep 28 | AI System Architecture & Orchestration |
+| 44 | Tue Sep 29 | LLM-as-a-Judge & Eval Harness Design |
+| 45 | Wed Sep 30 | Hallucination Detection & Evaluation |
+| 46 | Thu Oct 1 | RAG Evaluation — RAGAS & TruLens |
+| 47 | Fri Oct 2 | LangSmith for Debugging & Observability |
+| 48 | Sat Oct 3 | AI Safety & Guardrails in Production |
+| 49 | Sun Oct 4 | **Week 7 Project** — Eval & Observability Platform |
+| 50 | Mon Oct 5 | AI Application Architecture · REST APIs · JSON Schema |
+| 51 | Tue Oct 6 | FastAPI Fundamentals · Requests, Responses & Error Handling |
+| 52 | Wed Oct 7 | Auth, API Keys & Env Vars · File Uploads, Streaming & Async APIs |
+| 53 | Thu Oct 8 | Database Integration · AI API Integration (OpenAI, Gemini, Claude) |
+| 54 | Fri Oct 9 | Agentic System Design — Runtime, State & Queueing |
+| 55 | Sat Oct 10 | Scaling, Backpressure, Failure Isolation & Concurrency |
+| 56 | Sun Oct 11 | **Week 8 Project** — AI Backend + Scalable Agent Runtime |
+| 57 | Mon Oct 12 | ML Fundamentals — Types, Features/Labels, Train/Test Split |
+| 58 | Tue Oct 13 | Cross-Validation · Accuracy/Precision/Recall/F1/ROC-AUC · Class Imbalance |
+| 59 | Wed Oct 14 | Overfitting/Regularization · Feature Engineering · Scikit-learn Workflow |
+| 60 | Thu Oct 15 | Deep Learning Fundamentals — Perceptron, Activations, Backprop |
+| 61 | Fri Oct 16 | Hyperparameter Tuning · BatchNorm, Dropout, Vanishing Gradient |
+| 62 | Sat Oct 17 | CNNs, Transfer Learning, SOTA · TensorFlow/Keras or PyTorch |
+| 63 | Sun Oct 18 | **Week 9 Project** — ML & DL Project Development |
+| 64 | Mon Oct 19 | NLP Foundations — Preprocessing, Stop Words, Stemming, Lemmatization |
+| 65 | Tue Oct 20 | BoW, Count Vectorizer, TF-IDF · N-Grams, POS Tagging & NER |
+| 66 | Wed Oct 21 | Word2Vec, GloVe · Hugging Face Transformers Pipeline |
+| 67 | Thu Oct 22 | Vision-Language Models, OCR & Document Understanding |
+| 68 | Fri Oct 23 | Chart Reasoning · Reasoning Models & Test-Time Compute |
+| 69 | Sat Oct 24 | Red Teaming, OWASP LLM Top 10 & Responsible AI Governance |
+| 70 | Sun Oct 25 | **Week 10 Project** — NLP & Multimodal + Red Team Assessment |
+| 71 | Mon Oct 26 | AWS, Azure & GCP · Compute (EC2, Azure VM) · Storage (S3, Blob) |
+| 72 | Tue Oct 27 | Docker Fundamentals & Containerization for AI |
+| 73 | Wed Oct 28 | Deploying FastAPI & AI Apps on Cloud · Serverless AI |
+| 74 | Thu Oct 29 | CI/CD for AI · Monitoring & Logging · Cost Optimization |
+| 75 | Fri Oct 30 | LLMOps — Registries, Eval Gates, Inference Optimisation |
+| 76 | Sat Oct 31 | Synthetic Data · Feature Stores & Lineage · Chargeback |
+| 77 | Sun Nov 1 | **Week 11 Project** — Deploy a Production-Ready AI Service |
+| 78 | Mon Nov 2 | No-Code & Low-Code Platforms · Claude Projects & Artifacts · ChatGPT Projects, GPTs & Canvas |
+| 79 | Tue Nov 3 | Microsoft Copilot & M365 Copilot · Copilot Studio & AI Agents · Gemini Workspace & Gems |
+| 80 | Wed Nov 4 | n8n Workflow Automation · GitHub Copilot, Cursor & Windsurf · No-Code vs Low-Code vs Custom |
+| 81 | Thu Nov 5 | **Capstone I** — Architecture, ADRs & C4 Diagrams |
+| 82 | Fri Nov 6 | **Capstone II** — Build & Integration |
+| 83 | Sat Nov 7 | **Capstone III** — Evaluation, Security & Deployment |
+| 84 | Sun Nov 8 | **Capstone IV** — Enterprise AI Assistant Final Defence |
+
+Full topic detail, project tables and carried-in resources are in
+📗 [`CURRICULUM_MASTER.md`](CURRICULUM_MASTER.md).
 
 ---
 

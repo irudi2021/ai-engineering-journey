@@ -1,5 +1,10 @@
 # Phase 2 Curriculum — Weeks 5–12 · Days 29–84
 
+> ⚠️ **SUPERSEDED (2 Aug 2026) by 📗 [`CURRICULUM_MASTER.md`](CURRICULUM_MASTER.md)**
+> after the 4-month syllabus merge. Retained for the coverage-audit rationale in the
+> section below, which still explains why harness / loop / context engineering were added.
+> **For current Week 5–12 content, use `CURRICULUM_MASTER.md`.**
+
 > 🔒 **LOCKED 2 August 2026.** Dates are governed by [`SCHEDULE.md`](SCHEDULE.md).
 > This document governs **content**. Weeks 5 and 6 are specified day-by-day;
 > Weeks 7–12 are specified at week level and will be expanded before each week begins.

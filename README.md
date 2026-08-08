@@ -2,7 +2,7 @@
 
 A 12-week hands-on curriculum — From LLM Foundations to Production-Grade AI Systems.
 
-**Topics:** LLMs · Fine-Tuning · RAG · Agents · MCP · Evals · Guardrails · Harness Engineering · Loop Engineering · Context Engineering · System Design · Multimodal · Security · LLMOps
+**Topics:** Python & SQL Foundations · Machine Learning · Deep Learning & CNNs · Computer Vision · NLP · LLMs · Fine-Tuning · RAG · Agents · LangChain · LangGraph · CrewAI · AutoGen · MCP · Evals · RAGAS · LangSmith · Guardrails · Harness Engineering · Loop Engineering · Context Engineering · FastAPI · System Design · Multimodal · Security & Red Teaming · Cloud & LLMOps · No-Code AI Platforms
 
 **Start:** July 6, 2026 · **End:** November 8, 2026
 
@@ -17,12 +17,14 @@ A 12-week hands-on curriculum — From LLM Foundations to Production-Grade AI Sy
 > from 5 onward has shifted **+42 days**. The series now ends **8 November 2026**.
 >
 > 📅 **[`SCHEDULE.md`](SCHEDULE.md) is the authoritative source for all dates.**
-> 📘 **[`CURRICULUM_PHASE2.md`](CURRICULUM_PHASE2.md) is the content authority for Weeks 5–12.**
+> 📗 **[`CURRICULUM_MASTER.md`](CURRICULUM_MASTER.md) is the complete content authority for Weeks 1–12.**
 > 📕 **[Complete Syllabus PDF](AI_Engineering_Complete_Syllabus_Weeks1-12.pdf)** — all 12 weeks in one reference document.
 >
-> **Content lock (2 Aug 2026):** a coverage audit of the Phase 1 corpus found harness,
-> loop and context engineering under-covered. Weeks 5–6 are rewritten day-by-day to teach
-> all three explicitly — no extra weeks added.
+> **Merge lock m1 (2 Aug 2026):** an incoming 4-month syllabus has been absorbed into all
+> 12 weeks — **no weeks added**. Adds classical ML, deep learning & computer vision,
+> classical NLP, FastAPI depth, named agentic frameworks, cloud infrastructure detail and
+> the complete no-code / AI-productivity block. ~60% of the incoming material was already
+> delivered in Days 1–28; see `CURRICULUM_MASTER.md` §1 for the term-by-term evidence.
 
 ---
 
@@ -46,20 +48,22 @@ Each week folder contains:
 | 03 | RETRIEVAL & AGENTS | RAG, agents, multi-agent orchestration | End-to-End Text-to-SQL (CAPSTONE) | Jul 20–26 | ✅ |
 | 04 | PRODUCTION | LLMOps, versioning, cost, security, multimodal | Production Hardening (PORTFOLIO) | Jul 27–Aug 2 | ✅ |
 
+### 📚 Track 0 — Foundations (self-study): Python, Pandas, NumPy, OOP & SQL
+
 ### ⏸️ Pause — 3 Aug – 13 Sep 2026 *(42 days)*
 
 ### Phase 2 — Weeks 5–12 · Days 29–84 *(14 Sep – 8 Nov 2026)*
 
 | Week | Theme | Topic | Project | Dates |
 |------|-------|--------|---------|-------|
-| 05 | AGENTS | **Agents, Harness & Loop Engineering** | Tool-Calling Agent (PORTFOLIO) | **Sep 14–20** |
-| 06 | ORCHESTRATION | **Context Engineering, MCP & Multi-Agent** | MCP Server + Multi-Agent Pipeline (PORTFOLIO) | Sep 21–27 |
-| 07 | PRODUCTION | Evaluation & AI Applications in Production | Eval & Observability Platform (PORTFOLIO) | Sep 28–Oct 4 |
-| 08 | SYSTEM DESIGN | Agentic System Design | Scalable Agent Runtime (MINI) | Oct 5–11 |
-| 09 | MULTIMODAL | Image, Multimodal & Reasoning Models | Multimodal Document Processor (PORTFOLIO) | Oct 12–18 |
-| 10 | SECURITY | AI Security, Red Teaming & Responsible AI | Red Team Your Own RAG System (PORTFOLIO) | Oct 19–25 |
-| 11 | LLMOPS | Cloud-Native Deployment, LLMOps & Synthetic Data | Deploy a Production-Ready AI Service (PORTFOLIO) | Oct 26–Nov 1 |
-| 12 | CAPSTONE | Enterprise AI Assistant — Capstone | Full Capstone (CAPSTONE) | Nov 2–8 |
+| 05 | AGENTS | Agents, Harness & Loop Engineering + Agentic Frameworks | AI Research Agent with Tool Calling (PORTFOLIO) | **Sep 14–20** |
+| 06 | ORCHESTRATION | Context Engineering, MCP & Multi-Agent Frameworks | Multi-Agent Business Analyst System (PORTFOLIO) | Sep 21–27 |
+| 07 | PRODUCTION | Production AI Systems, Evaluation & Observability | Eval & Observability Platform (PORTFOLIO) | Sep 28–Oct 4 |
+| 08 | APP ENGINEERING | **AI Application Engineering (FastAPI) & Agentic System Design** | AI Backend + Agent Runtime (PORTFOLIO) | Oct 5–11 |
+| 09 | ML & DL | **Machine Learning & Deep Learning Foundations** | ML & DL Project Development (PORTFOLIO) | Oct 12–18 |
+| 10 | NLP & MULTIMODAL | **NLP, Multimodal, Reasoning & Red Teaming** | NLP & Multimodal Projects + Red Team (PORTFOLIO) | Oct 19–25 |
+| 11 | CLOUD & LLMOPS | **Cloud Deployment, AI Infrastructure & LLMOps** | Deploy a Production-Ready AI Service (PORTFOLIO) | Oct 26–Nov 1 |
+| 12 | NO-CODE & CAPSTONE | **No-Code AI Platforms & Enterprise Capstone** | Enterprise Multi-Document RAG Assistant (CAPSTONE) | Nov 2–8 |
 
 ---
 
