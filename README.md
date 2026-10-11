@@ -6,8 +6,11 @@ A 12-week hands-on curriculum — From LLM Foundations to Production-Grade AI Sy
 
 **Start:** Monday, 12 October 2026 · **End:** Sunday, 3 January 2027 · **84 days, no rest days**
 
+**Current to October 2026:** every day carries a verified 2026 addition — MCP spec 2026-07-28 · A2A v1.0 · Agent Skills · harness & context engineering · OWASP Top 10 for Agentic Applications · RLVR/GRPO · disaggregated inference · OpenTelemetry GenAI · EU AI Act Digital Omnibus.
+
 > 📅 **[`SCHEDULE.md`](SCHEDULE.md)** — authoritative source for all dates, full day-by-day
 > 📗 **[`CURRICULUM_MASTER.md`](CURRICULUM_MASTER.md)** — complete content authority for Weeks 1–12
+> 📄 **[`AI_Engineering_Complete_Syllabus_Weeks1-12.pdf`](AI_Engineering_Complete_Syllabus_Weeks1-12.pdf)** — full syllabus PDF
 
 ---
 

@@ -11,6 +11,51 @@
 > **Syllabus composition:** an external 4-month (16-week) syllabus was merged into this
 > 12-week programme on 2 August 2026 (merge revision m1). **No weeks were added.** Every
 > incoming topic and every listed resource is preserved verbatim below.
+>
+> **2026 Currency Layer (revision u1, 11 October 2026):** every day now carries one
+> 2026 addition so the course ends current to the state of AI engineering in October 2026.
+> Additive only — no day title, topic or resource from m1 was changed or removed.
+
+---
+
+## 0. 2026 CURRENCY LAYER — What Changed in the Field and Where It Is Taught
+
+Checked on 11 October 2026 against primary sources (listed below). Rules:
+
+1. **Additive.** Each day keeps its m1 topic; the 2026 addition is taught inside it.
+2. **Model-agnostic.** No frontier model version is hard-coded — names change monthly.
+   Day 7 builds the live model landscape from official provider changelogs on the day.
+3. **Verified or excluded.** Anything reported by a single unverified source was left out.
+
+| 2026 shift | Taught on |
+|------------|-----------|
+| Agent = Model + Harness; harness engineering as a core skill | Days 29–33 |
+| Agent Skills open standard (SKILL.md) and AGENTS.md | Days 30, 37, 80 |
+| Context engineering: Write / Select / Compress / Isolate | Days 36–37 |
+| MCP spec revision 2026-07-28 (stateless core, MRTR, Tasks extension) | Days 38–39 |
+| MCP, goose and AGENTS.md under the Agentic AI Foundation (Linux Foundation) | Day 38 |
+| A2A protocol v1.0 and MCP-vs-A2A | Days 20, 40, 42 |
+| OWASP Top 10 for Agentic Applications 2026 (ASI01–ASI10) | Days 25, 41, 48, 69, 83 |
+| RL with verifiable rewards (RLVR / GRPO) and reasoning models | Days 4, 5, 10, 68 |
+| Prefill/decode disaggregation, llm-d, NVIDIA Dynamo, speculative decoding | Days 11, 75 |
+| FP8 / FP4 quantisation formats | Day 8 |
+| OpenTelemetry GenAI semantic conventions (Development status) | Days 22, 47, 74 |
+| Eval-driven development and trajectory evals | Days 12, 35, 44, 49 |
+| EU AI Act after the Digital Omnibus (Reg. (EU) 2026/1744) | Day 69 |
+| Coding agents as the primary developer interface | Day 80 |
+| Managed agent platforms on AWS, Azure and Google Cloud | Day 71 |
+
+**Sources checked (11 Oct 2026)**
+
+1. MCP specification 2026-07-28 changelog — `modelcontextprotocol.io/specification/2026-07-28/changelog`
+2. Agentic AI Foundation formation (Linux Foundation, 9 Dec 2025) — `linuxfoundation.org/press/linux-foundation-announces-the-formation-of-the-agentic-ai-foundation`
+3. A2A protocol one-year milestone (Linux Foundation, 9 Apr 2026) — `linuxfoundation.org/press/a2a-protocol-surpasses-150-organizations-lands-in-major-cloud-platforms-and-sees-enterprise-production-use-in-first-year`
+4. OWASP Top 10 for Agentic Applications 2026 — `genai.owasp.org/resource/owasp-top-10-for-agentic-applications-for-2026`
+5. Agent Skills open standard — `agentskills.io`
+6. EU Digital Omnibus on AI enters into force (White & Case) — `whitecase.com/insight-alert/eu-ai-omnibus-enters-force-amending-ai-act`
+7. OpenTelemetry GenAI semantic conventions status (Aug 2026) — `truefoundry.com/blog/opentelemetry-genai-semantic-conventions`
+8. llm-d prefill/decode disaggregation — `llm-d.ai/docs/guides/pd-disaggregation`
+9. Harness engineering for coding agent users (B. Bockeler, Apr 2026) — `martinfowler.com`
 
 ---
 
@@ -162,6 +207,39 @@ not removed — it layers on top of Days 20, 25 and 26.
 | 27 | Sat Nov 7 | Fine-Tuning for Production |
 | 28 | Sun Nov 8 | **Week 4 Capstone** — Production Hardening & Review |
 
+**⚡ 2026 Currency Layer (u1)** — added inside each day, on top of the topic above
+
+| Day | 2026 addition |
+|-----|---------------|
+| 1 | Tokenizer differences across model families; token-cost tax on non-English text (Tamil vs English) |
+| 2 | Matryoshka (truncatable) embeddings; multi-vector late interaction (ColBERT); multimodal embeddings |
+| 3 | Mixture-of-Experts (total vs active parameters); GQA / MLA attention; long-context mechanics |
+| 4 | The 2026 post-training stack: SFT → preference optimisation (DPO) → RL with verifiable rewards (RLVR / GRPO); how reasoning models are made |
+| 5 | Test-time compute scaling; reasoning-effort controls; prompting reasoning models vs classic models |
+| 6 | Constrained decoding and strict JSON-Schema output modes; JSON Schema 2020-12 |
+| 7 | Live 2026 model landscape (frontier vs open-weight, verified from official changelogs on the day); model churn and migration cost; model routing |
+| 8 | FP8 and 4-bit floating-point formats (NVFP4 / MXFP4); KV-cache quantisation |
+| 9 | QLoRA; serving many LoRA adapters on one base model (multi-LoRA) |
+| 10 | RL fine-tuning: RLVR / GRPO, verifier and reward design; open tooling (TRL, verl, OpenRLHF) |
+| 11 | vLLM, SGLang, TensorRT-LLM; prefill/decode disaggregation; llm-d (CNCF Sandbox, Mar 2026) and NVIDIA Dynamo; speculative decoding; prefix caching |
+| 12 | Benchmark saturation and contamination; agentic benchmarks (e.g. SWE-bench Verified); building your own task evals |
+| 13 | Prompt caching, batch APIs, KV-cache reuse, model cascades |
+| 14 | Project add-on: eval set + cost report per candidate model |
+| 15 | Decision framework: RAG vs long context vs agentic search |
+| 16 | Contextual chunk enrichment; late chunking; layout-aware document parsing |
+| 17 | Multi-vector retrieval; GraphRAG; query rewriting and routing |
+| 18 | Grounded citations; agentic RAG (the agent decides when and what to retrieve) |
+| 19 | Tool calling with reasoning models; computer-use and browser agents |
+| 20 | Orchestrator-worker and sub-agent patterns; preview of the A2A protocol |
+| 21 | Capstone add-on: tool-call trace review and failure taxonomy |
+| 22 | OpenTelemetry GenAI semantic conventions (still 'Development' status in 2026); AI gateways |
+| 23 | Prompt registries; model-deprecation and migration playbook for fast model churn |
+| 24 | Prompt caching, batch inference, routing and reasoning-effort budgets as cost levers |
+| 25 | OWASP Top 10 for LLM Applications (2025) + OWASP Top 10 for Agentic Applications 2026 (ASI01-ASI10, published 9 Dec 2025); indirect prompt injection |
+| 26 | Real-time voice agents (speech-to-speech); video understanding |
+| 27 | Distillation from frontier models; synthetic data; fine-tune vs context-engineer decision |
+| 28 | Review add-on: OWASP LLM + Agentic risk mapping of the capstone |
+
 | Week | Days | Theme |
 |------|------|-------|
 | 1 | 1–7 | Foundations — tokenization, embeddings, transformers, training, scaling laws, structured output, model selection |
@@ -234,6 +312,18 @@ not removed — it layers on top of Days 20, 25 and 26.
 | 34 | Sat Nov 14 | **Agentic Frameworks I — LangChain Fundamentals & LangGraph Workflows** |
 | 35 | Sun Nov 15 | **Week 5 Project** — AI Research Agent with Tool Calling |
 
+**⚡ 2026 Currency Layer (u1)** — added inside each day, on top of the topic above
+
+| Day | 2026 addition |
+|-----|---------------|
+| 29 | 'Agent = Model + Harness' (Bockeler, Thoughtworks, Apr 2026); long-horizon / deep agents; planning patterns |
+| 30 | Agent Skills open standard (SKILL.md, progressive disclosure, agentskills.io); AGENTS.md project instructions |
+| 31 | Sandboxing and containment for agents with shell, web and file access; least-privilege tool permissions |
+| 32 | Token, time and cost budgets per run; reasoning-effort as a loop control |
+| 33 | Approval gates and permission modes; interrupt / resume for human review |
+| 34 | LangGraph durable execution, checkpointing and interrupts |
+| 35 | Project add-on: trajectory-level eval of the research agent |
+
 **Incoming topics absorbed:** LangChain Fundamentals · LangGraph Workflows ·
 Loop Engineering & Human-in-the-Loop Design · Agent Memory & Planning Strategies *(D33, extended D41)*
 
@@ -260,6 +350,18 @@ Category: Agentic AI · Industry: Research Automation · YouTube search: *LangGr
 | 40 | Fri Nov 20 | **Agentic Frameworks II — CrewAI, AG2 / AutoGen / Agno & Multi-Agent Collaboration** |
 | 41 | Sat Nov 21 | Agent Memory Architectures & Planning Strategies |
 | 42 | Sun Nov 22 | **Week 6 Project** — Multi-Agent Business Analyst System |
+
+**⚡ 2026 Currency Layer (u1)** — added inside each day, on top of the topic above
+
+| Day | 2026 addition |
+|-----|---------------|
+| 36 | Context engineering framework: Write / Select / Compress / Isolate |
+| 37 | Compaction, memory files and skills as progressive disclosure in practice |
+| 38 | MCP spec revision 2026-07-28: stateless core (no initialize handshake, no sessions), server/discover, Multi Round-Trip Requests, Tasks extension, Roots/Sampling/Logging deprecated; MCP governed by the Agentic AI Foundation (Linux Foundation, Dec 2025) |
+| 39 | MCP authorisation (OAuth, Client ID Metadata Documents), cacheable list results (ttlMs / cacheScope), OpenTelemetry trace propagation, migrating a 2025-11-25 server |
+| 40 | A2A protocol v1.0 (Linux Foundation; Agent Cards, task lifecycle, JSON-RPC + gRPC); MCP vs A2A; vendor agent SDKs (OpenAI Agents SDK, Claude Agent SDK, Google ADK, Microsoft Agent Framework) |
+| 41 | Long-term memory stores; memory as a tool; memory poisoning risk (OWASP Agentic) |
+| 42 | Project add-on: expose one agent over A2A and its tools over MCP |
 
 **Incoming topics absorbed:** Context Window & Token Management · MCP (Model Context
 Protocol) · CrewAI & Multi-Agent Collaboration · AG2 / AutoGen / Agno Framework Overview ·
@@ -289,6 +391,18 @@ Category: Multi-Agent AI · Industry: Business Intelligence · YouTube search: *
 | 48 | Sat Nov 28 | **AI Safety & Guardrails in Production** |
 | 49 | Sun Nov 29 | **Week 7 Project** — Eval & Observability Platform |
 
+**⚡ 2026 Currency Layer (u1)** — added inside each day, on top of the topic above
+
+| Day | 2026 addition |
+|-----|---------------|
+| 43 | Reference architecture: gateway → guardrails → orchestrator → tools → observability |
+| 44 | Eval-driven development; golden datasets; agent trajectory and tool-use evals |
+| 45 | Groundedness and citation checks; uncertainty signals |
+| 46 | Agentic RAG evaluation (retrieval decisions, not just answers) |
+| 47 | Vendor-neutral tracing with OpenTelemetry GenAI conventions alongside LangSmith (Langfuse, Arize Phoenix) |
+| 48 | Guardrails mapped to OWASP Agentic risks; runtime policy enforcement |
+| 49 | Project add-on: CI eval gate that blocks a regression |
+
 **Incoming topics absorbed:** AI System Architecture & Orchestration · LangSmith for
 Debugging & Observability · AI Safety & Guardrails · Hallucination Detection &
 Evaluation · RAG Evaluation (RAGAS, TruLens)
@@ -308,6 +422,18 @@ Evaluation · RAG Evaluation (RAGAS, TruLens)
 | 54 | Fri Dec 4 | Agentic System Design — Runtime, State Management & Queueing |
 | 55 | Sat Dec 5 | Scaling, Backpressure, Failure Isolation & Concurrency |
 | 56 | Sun Dec 6 | **Week 8 Project** — End-to-End AI Backend Development using FastAPI + Scalable Agent Runtime |
+
+**⚡ 2026 Currency Layer (u1)** — added inside each day, on top of the topic above
+
+| Day | 2026 addition |
+|-----|---------------|
+| 50 | Streaming tool-call events; structured outputs at the API boundary |
+| 51 | Async FastAPI patterns for long-running LLM calls |
+| 52 | Server-Sent Events streaming; secrets management for model API keys |
+| 53 | Multi-provider abstraction and fallbacks; provider-native MCP connectors |
+| 54 | Durable execution for long-running agents (workflow engines such as Temporal); resumable state |
+| 55 | Rate limits, retries with jitter, circuit breakers for model providers |
+| 56 | Project add-on: provider failover drill |
 
 **Incoming topics absorbed — the complete M3W1 block:** Introduction to AI Application
 Architecture · REST APIs, HTTP Methods & API Integration · JSON, JSON Schema & Structured
@@ -335,6 +461,18 @@ Integration (OpenAI, Gemini, Claude) · End-to-End AI Backend Development using 
 | 61 | Fri Dec 11 | **Epochs, Batch Size, Learning Rate & Hyperparameter Tuning · Batch Normalization, Dropout & Vanishing Gradient Problem** |
 | 62 | Sat Dec 12 | **CNNs & Image Classification · Pretrained Models, Transfer Learning & Fine-Tuning · SOTA Models & Modern DL Applications · End-to-End Model Development using TensorFlow/Keras or PyTorch** |
 | 63 | Sun Dec 13 | **Week 9 Project** — ML & DL Project Development & Deployment |
+
+**⚡ 2026 Currency Layer (u1)** — added inside each day, on top of the topic above
+
+| Day | 2026 addition |
+|-----|---------------|
+| 57 | Where classical ML still runs FAANG-scale systems (ranking, recommendations, fraud) |
+| 58 | Metric choice for imbalanced production data |
+| 59 | Data leakage and train/serve skew |
+| 60 | From perceptron to transformer: the same gradient-descent engine |
+| 61 | Mixed-precision training basics (FP16 / BF16) |
+| 62 | Vision Transformers (ViT) and diffusion models in context |
+| 63 | Project add-on: model card for each project |
 
 **Incoming topics absorbed — the complete M1W3 and M2W1 blocks.**
 
@@ -377,6 +515,18 @@ Integration (OpenAI, Gemini, Claude) · End-to-End AI Backend Development using 
 | 69 | Sat Dec 19 | Red Teaming, OWASP LLM Top 10 & Responsible AI Governance |
 | 70 | Sun Dec 20 | **Week 10 Project** — NLP & Multimodal Projects + Red Team Assessment |
 
+**⚡ 2026 Currency Layer (u1)** — added inside each day, on top of the topic above
+
+| Day | 2026 addition |
+|-----|---------------|
+| 64 | Why classical preprocessing still matters before LLM pipelines (cost, PII scrubbing) |
+| 65 | Classical NER vs LLM extraction: cost and accuracy trade-off |
+| 66 | Hugging Face Hub model selection; small open models for on-device and edge |
+| 67 | Document AI with vision-language models replacing OCR-only pipelines |
+| 68 | Reasoning models in production: effort settings, latency/cost trade-offs, when not to use them |
+| 69 | EU AI Act after the Digital Omnibus (Reg. (EU) 2026/1744, in force 27 Jul 2026): Annex III high-risk → 2 Dec 2027, Annex I → 2 Aug 2028, Art. 50 transparency still from Aug 2026; NIST AI RMF; ISO/IEC 42001; OWASP Agentic red-team cases |
+| 70 | Project add-on: red-team agent tool misuse, not only prompt injection |
+
 **Incoming topics absorbed — the complete M2W3 classical-NLP block.**
 *(Attention, self-attention, encoder-decoder, transformers, LLMs, foundation models,
 cosine similarity and semantic search from the same block are taught on Days 2–4.)*
@@ -415,6 +565,18 @@ ratings and residual-risk acceptance).
 | 76 | Sat Dec 26 | Synthetic Data Generation (Self-Instruct, Evol-Instruct) · Feature Stores & Data Lineage · Cost Engineering & Chargeback |
 | 77 | Sun Dec 27 | **Week 11 Project** — Deploy a Production-Ready AI Service |
 
+**⚡ 2026 Currency Layer (u1)** — added inside each day, on top of the topic above
+
+| Day | 2026 addition |
+|-----|---------------|
+| 71 | Managed agent platforms: Amazon Bedrock AgentCore, Microsoft Azure AI Foundry, Google Vertex AI agent tooling |
+| 72 | GPU containers and model-weight caching |
+| 73 | Serverless GPU inference; cold-start trade-offs |
+| 74 | Eval gates inside CI/CD; OpenTelemetry-based AI monitoring |
+| 75 | Kubernetes-native inference (llm-d, NVIDIA Dynamo) and prefill/decode disaggregation at scale |
+| 76 | Synthetic data for evals and RL environments; verifier quality as the ceiling |
+| 77 | Project add-on: cost-per-request dashboard |
+
 **Incoming topics absorbed — the complete M4W3 block plus M3W4's Docker and Cloud Deployment.**
 
 **Free Resources carried in**
@@ -445,6 +607,18 @@ ratings and residual-risk acceptance).
 | 82 | Fri Jan 1 | **Capstone II** — Build & Integration |
 | 83 | Sat Jan 2 | **Capstone III** — Evaluation, Security & Deployment |
 | 84 | Sun Jan 3 | **Capstone IV** — Enterprise AI Assistant Final Defence |
+
+**⚡ 2026 Currency Layer (u1)** — added inside each day, on top of the topic above
+
+| Day | 2026 addition |
+|-----|---------------|
+| 78 | Agent builders inside productivity suites; when no-code agents are enough |
+| 79 | Enterprise agent governance in Microsoft 365 / Google Workspace |
+| 80 | Coding agents as the main developer interface (Claude Code, OpenAI Codex, GitHub Copilot agent mode, Cursor); Agent Skills and AGENTS.md in a real repo |
+| 81 | ADRs for MCP, A2A, model routing and eval-gate choices |
+| 82 | Build with MCP tools, Agent Skills and OpenTelemetry tracing |
+| 83 | Eval gate + OWASP LLM/Agentic mapping + EU AI Act risk classification |
+| 84 | Final defence + State of AI Engineering 2026 → 2027 outlook |
 
 **Incoming topics absorbed — the complete M4W4 block.**
 
@@ -534,5 +708,5 @@ ratings and residual-risk acceptance).
 ---
 
 *Locked 11 October 2026 — fresh run, Day 1 = Mon 12 Oct 2026, Day 84 = Sun 3 Jan 2027.
-Content merge revision m1 (2 Aug 2026). Complete content authority for Weeks 1–12.
+Content merge revision m1 (2 Aug 2026) + 2026 Currency Layer u1 (11 Oct 2026). Complete content authority for Weeks 1–12.
 Dates governed by `SCHEDULE.md`.*
