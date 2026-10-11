@@ -1,13 +1,11 @@
 # Phase 2 Curriculum — Weeks 5–12 · Days 29–84
 
-> ⚠️ **SUPERSEDED (2 Aug 2026) by 📗 [`CURRICULUM_MASTER.md`](CURRICULUM_MASTER.md)**
-> after the 4-month syllabus merge. Retained for the coverage-audit rationale in the
-> section below, which still explains why harness / loop / context engineering were added.
-> **For current Week 5–12 content, use `CURRICULUM_MASTER.md`.**
+> ⚠️ **Superseded as the week plan by 📗 [`CURRICULUM_MASTER.md`](CURRICULUM_MASTER.md).**
+> Retained because it holds the **topic-level detail** for Days 29–42 (harness, loop and
+> context engineering) and the coverage-audit rationale. Where day titles differ, the
+> master wins. Dates re-aligned 11 Oct 2026 to the fresh run.
 
-> 🔒 **LOCKED 2 August 2026.** Dates are governed by [`SCHEDULE.md`](SCHEDULE.md).
-> This document governs **content**. Weeks 5 and 6 are specified day-by-day;
-> Weeks 7–12 are specified at week level and will be expanded before each week begins.
+> Dates are governed by [`SCHEDULE.md`](SCHEDULE.md).
 
 ---
 
@@ -41,7 +39,7 @@ disciplines explicitly, folding into the projects already allocated to those wee
 ---
 
 ## WEEK 5 · AGENTS, HARNESS & LOOP ENGINEERING
-**Days 29–35 · 14–20 September 2026**
+**Days 29–35 · 9–15 November 2026**
 **Project:** Tool-Calling Agent (PORTFOLIO)
 
 Builds directly on Day 19 (ReAct, tools, memory) and Day 20 (multi-agent).
@@ -49,13 +47,13 @@ Builds directly on Day 19 (ReAct, tools, memory) and Day 20 (multi-agent).
 
 | Day | Date | Topic |
 |-----|------|-------|
-| 29 | Mon Sep 14 | **Agent Architectures Beyond ReAct** |
-| 30 | Tue Sep 15 | **Harness Engineering I — Tool Design** |
-| 31 | Wed Sep 16 | **Harness Engineering II — Responses, Errors & Environment** |
-| 32 | Thu Sep 17 | **Loop Engineering I — Termination & Budgets** |
-| 33 | Fri Sep 18 | **Loop Engineering II — Recovery & Sub-Agents** |
-| 34 | Sat Sep 19 | **Agent Frameworks & Human-in-the-Loop** |
-| 35 | Sun Sep 20 | **Week 5 Project** — Tool-Calling Agent |
+| 29 | Mon Nov 9 | **Agent Architectures Beyond ReAct** |
+| 30 | Tue Nov 10 | **Harness Engineering I — Tool Design** |
+| 31 | Wed Nov 11 | **Harness Engineering II — Responses, Errors & Environment** |
+| 32 | Thu Nov 12 | **Loop Engineering I — Termination & Budgets** |
+| 33 | Fri Nov 13 | **Loop Engineering II — Recovery & Sub-Agents** |
+| 34 | Sat Nov 14 | **Agent Frameworks & Human-in-the-Loop** |
+| 35 | Sun Nov 15 | **Week 5 Project** — Tool-Calling Agent |
 
 ### Day 29 · Agent Architectures Beyond ReAct
 Plan-and-execute, reflection/critic loops, tree search, router-only agents.
@@ -108,18 +106,18 @@ distribution, and error messages demonstrated to improve recovery rate.
 ---
 
 ## WEEK 6 · CONTEXT ENGINEERING, MCP & MULTI-AGENT
-**Days 36–42 · 21–27 September 2026**
+**Days 36–42 · 16–22 November 2026**
 **Project:** MCP Server + Multi-Agent Pipeline (PORTFOLIO)
 
 | Day | Date | Topic |
 |-----|------|-------|
-| 36 | Mon Sep 21 | **Context Engineering I — The Context Budget** |
-| 37 | Tue Sep 22 | **Context Engineering II — Compaction & Progressive Disclosure** |
-| 38 | Wed Sep 23 | **MCP Fundamentals** |
-| 39 | Thu Sep 24 | **Building a Production MCP Server** |
-| 40 | Fri Sep 25 | **Multi-Agent Communication & Handoffs** |
-| 41 | Sat Sep 26 | **Agent Memory Architectures** |
-| 42 | Sun Sep 27 | **Week 6 Project** — MCP Server + Multi-Agent Pipeline |
+| 36 | Mon Nov 16 | **Context Engineering I — The Context Budget** |
+| 37 | Tue Nov 17 | **Context Engineering II — Compaction & Progressive Disclosure** |
+| 38 | Wed Nov 18 | **MCP Fundamentals** |
+| 39 | Thu Nov 19 | **Building a Production MCP Server** |
+| 40 | Fri Nov 20 | **Multi-Agent Communication & Handoffs** |
+| 41 | Sat Nov 21 | **Agent Memory Architectures** |
+| 42 | Sun Nov 22 | **Week 6 Project** — MCP Server + Multi-Agent Pipeline |
 
 ### Day 36 · Context Engineering I — The Context Budget
 The discipline Phase 1 used implicitly and never named.
