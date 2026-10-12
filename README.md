@@ -46,7 +46,7 @@ Each week folder contains:
 
 ## Progress
 
-**Day 0 of 84.** Fresh run starts Monday 12 October 2026.
+**Day 1 of 84** — ✅ Day 1 Tokenization (Mon 12 Oct 2026). Next: Day 2 Embeddings (Tue 13 Oct 2026).
 
 ---
 
