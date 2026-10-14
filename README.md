@@ -4,7 +4,7 @@ A 12-week hands-on curriculum — From LLM Foundations to Production-Grade AI Sy
 
 **Topics:** Python & SQL Foundations · Machine Learning · Deep Learning & CNNs · Computer Vision · NLP · LLMs · Fine-Tuning · RAG · Agents · LangChain · LangGraph · CrewAI · AutoGen · MCP · Evals · RAGAS · LangSmith · Guardrails · Harness Engineering · Loop Engineering · Context Engineering · FastAPI · System Design · Multimodal · Security & Red Teaming · Cloud & LLMOps · No-Code AI Platforms
 
-**Start:** Monday, 12 October 2026 · **End:** Sunday, 3 January 2027 · **84 days, no rest days**
+**Start:** Monday, 19 October 2026 · **End:** Sunday, 10 January 2027 · **84 days, no rest days**
 
 **Current to October 2026:** every day carries a verified 2026 addition — MCP spec 2026-07-28 · A2A v1.0 · Agent Skills · harness & context engineering · OWASP Top 10 for Agentic Applications · RLVR/GRPO · disaggregated inference · OpenTelemetry GenAI · EU AI Act Digital Omnibus.
 
@@ -18,18 +18,18 @@ A 12-week hands-on curriculum — From LLM Foundations to Production-Grade AI Sy
 
 | Week | Theme | Project | Dates |
 |------|-------|---------|-------|
-| 01 | Foundations — LLM internals | Model Selection Dashboard (MINI) | Oct 12–18 |
-| 02 | Efficiency — quantization, fine-tuning, serving | Domain Fine-Tune + Quantize (PORTFOLIO) | Oct 19–25 |
-| 03 | Retrieval & Agents — RAG, agents, multi-agent | End-to-End Text-to-SQL (CAPSTONE) | Oct 26–Nov 1 |
-| 04 | Production — LLMOps, versioning, cost, security, multimodal | Production Hardening & Review (PORTFOLIO) | Nov 2–8 |
-| 05 | Agents, Harness & Loop Engineering + Agentic Frameworks | AI Research Agent with Tool Calling (PORTFOLIO) | Nov 9–15 |
-| 06 | Context Engineering, MCP & Multi-Agent Frameworks | Multi-Agent Business Analyst System (PORTFOLIO) | Nov 16–22 |
-| 07 | Production AI Systems, Evaluation & Observability | Eval & Observability Platform (PORTFOLIO) | Nov 23–29 |
-| 08 | AI Application Engineering (FastAPI) & Agentic System Design | End-to-End AI Backend + Agent Runtime (PORTFOLIO) | Nov 30–Dec 6 |
-| 09 | Machine Learning & Deep Learning Foundations | ML & DL Project Development — 5 projects (PORTFOLIO) | Dec 7–13 |
-| 10 | NLP, Multimodal, Reasoning & Red Teaming | NLP & Multimodal Projects + Red Team — 3 projects (PORTFOLIO) | Dec 14–20 |
-| 11 | Cloud Deployment, AI Infrastructure & LLMOps | Deploy a Production-Ready AI Service (PORTFOLIO) | Dec 21–27 |
-| 12 | No-Code AI Platforms & Enterprise Capstone | Enterprise Multi-Document RAG Assistant (CAPSTONE) | Dec 28–Jan 3 |
+| 01 | Foundations — LLM internals | Model Selection Dashboard (MINI) | Oct 19–25 |
+| 02 | Efficiency — quantization, fine-tuning, serving | Domain Fine-Tune + Quantize (PORTFOLIO) | Oct 26–Nov 1 |
+| 03 | Retrieval & Agents — RAG, agents, multi-agent | End-to-End Text-to-SQL (CAPSTONE) | Nov 2–8 |
+| 04 | Production — LLMOps, versioning, cost, security, multimodal | Production Hardening & Review (PORTFOLIO) | Nov 9–15 |
+| 05 | Agents, Harness & Loop Engineering + Agentic Frameworks | AI Research Agent with Tool Calling (PORTFOLIO) | Nov 16–22 |
+| 06 | Context Engineering, MCP & Multi-Agent Frameworks | Multi-Agent Business Analyst System (PORTFOLIO) | Nov 23–29 |
+| 07 | Production AI Systems, Evaluation & Observability | Eval & Observability Platform (PORTFOLIO) | Nov 30–Dec 6 |
+| 08 | AI Application Engineering (FastAPI) & Agentic System Design | End-to-End AI Backend + Agent Runtime (PORTFOLIO) | Dec 7–13 |
+| 09 | Machine Learning & Deep Learning Foundations | ML & DL Project Development — 5 projects (PORTFOLIO) | Dec 14–20 |
+| 10 | NLP, Multimodal, Reasoning & Red Teaming | NLP & Multimodal Projects + Red Team — 3 projects (PORTFOLIO) | Dec 21–27 |
+| 11 | Cloud Deployment, AI Infrastructure & LLMOps | Deploy a Production-Ready AI Service (PORTFOLIO) | Dec 28–Jan 3 |
+| 12 | No-Code AI Platforms & Enterprise Capstone | Enterprise Multi-Document RAG Assistant (CAPSTONE) | Jan 4–10 |
 
 **Track 0 (self-study):** Python, Pandas, NumPy, OOP & SQL.
 
@@ -42,11 +42,13 @@ Each week folder contains:
 - `project/` — weekly hands-on project code
 - `notebooks/` — Jupyter notebooks for experiments
 
+`tools/` holds the generators for the schedule, syllabus PDF and verification.
+
 ---
 
 ## Progress
 
-**Day 1 of 84** — ✅ Day 1 Tokenization (Mon 12 Oct 2026). Next: Day 2 Embeddings (Tue 13 Oct 2026).
+**Day 0 of 84.** Fresh run starts Monday, 19 October 2026. Day 1 (Tokenization) notes are already in `week-01/notes/`.
 
 ---
 

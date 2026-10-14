@@ -3,7 +3,7 @@
 > ⚠️ **Superseded as the week plan by 📗 [`CURRICULUM_MASTER.md`](CURRICULUM_MASTER.md).**
 > Retained because it holds the **topic-level detail** for Days 29–42 (harness, loop and
 > context engineering) and the coverage-audit rationale. Where day titles differ, the
-> master wins. Dates re-aligned 11 Oct 2026 to the fresh run.
+> master wins. Dates re-aligned 14 Oct 2026 to the fresh run (Day 1 = Mon 19 Oct 2026).
 
 > Dates are governed by [`SCHEDULE.md`](SCHEDULE.md).
 
@@ -39,7 +39,7 @@ disciplines explicitly, folding into the projects already allocated to those wee
 ---
 
 ## WEEK 5 · AGENTS, HARNESS & LOOP ENGINEERING
-**Days 29–35 · 9–15 November 2026**
+**Days 29–35 · 16–22 November 2026**
 **Project:** Tool-Calling Agent (PORTFOLIO)
 
 Builds directly on Day 19 (ReAct, tools, memory) and Day 20 (multi-agent).
@@ -47,13 +47,13 @@ Builds directly on Day 19 (ReAct, tools, memory) and Day 20 (multi-agent).
 
 | Day | Date | Topic |
 |-----|------|-------|
-| 29 | Mon Nov 9 | **Agent Architectures Beyond ReAct** |
-| 30 | Tue Nov 10 | **Harness Engineering I — Tool Design** |
-| 31 | Wed Nov 11 | **Harness Engineering II — Responses, Errors & Environment** |
-| 32 | Thu Nov 12 | **Loop Engineering I — Termination & Budgets** |
-| 33 | Fri Nov 13 | **Loop Engineering II — Recovery & Sub-Agents** |
-| 34 | Sat Nov 14 | **Agent Frameworks & Human-in-the-Loop** |
-| 35 | Sun Nov 15 | **Week 5 Project** — Tool-Calling Agent |
+| 29 | Mon Nov 16 | **Agent Architectures Beyond ReAct** |
+| 30 | Tue Nov 17 | **Harness Engineering I — Tool Design** |
+| 31 | Wed Nov 18 | **Harness Engineering II — Responses, Errors & Environment** |
+| 32 | Thu Nov 19 | **Loop Engineering I — Termination & Budgets** |
+| 33 | Fri Nov 20 | **Loop Engineering II — Recovery & Sub-Agents** |
+| 34 | Sat Nov 21 | **Agent Frameworks & Human-in-the-Loop** |
+| 35 | Sun Nov 22 | **Week 5 Project** — Tool-Calling Agent |
 
 ### Day 29 · Agent Architectures Beyond ReAct
 Plan-and-execute, reflection/critic loops, tree search, router-only agents.
@@ -106,18 +106,18 @@ distribution, and error messages demonstrated to improve recovery rate.
 ---
 
 ## WEEK 6 · CONTEXT ENGINEERING, MCP & MULTI-AGENT
-**Days 36–42 · 16–22 November 2026**
+**Days 36–42 · 23–29 November 2026**
 **Project:** MCP Server + Multi-Agent Pipeline (PORTFOLIO)
 
 | Day | Date | Topic |
 |-----|------|-------|
-| 36 | Mon Nov 16 | **Context Engineering I — The Context Budget** |
-| 37 | Tue Nov 17 | **Context Engineering II — Compaction & Progressive Disclosure** |
-| 38 | Wed Nov 18 | **MCP Fundamentals** |
-| 39 | Thu Nov 19 | **Building a Production MCP Server** |
-| 40 | Fri Nov 20 | **Multi-Agent Communication & Handoffs** |
-| 41 | Sat Nov 21 | **Agent Memory Architectures** |
-| 42 | Sun Nov 22 | **Week 6 Project** — MCP Server + Multi-Agent Pipeline |
+| 36 | Mon Nov 23 | **Context Engineering I — The Context Budget** |
+| 37 | Tue Nov 24 | **Context Engineering II — Compaction & Progressive Disclosure** |
+| 38 | Wed Nov 25 | **MCP Fundamentals** |
+| 39 | Thu Nov 26 | **Building a Production MCP Server** |
+| 40 | Fri Nov 27 | **Multi-Agent Communication & Handoffs** |
+| 41 | Sat Nov 28 | **Agent Memory Architectures** |
+| 42 | Sun Nov 29 | **Week 6 Project** — MCP Server + Multi-Agent Pipeline |
 
 ### Day 36 · Context Engineering I — The Context Budget
 The discipline Phase 1 used implicitly and never named.
@@ -171,35 +171,35 @@ before and after Day 37's techniques.
 Expanded day-by-day before each week begins.
 
 ### WEEK 7 · Evaluation & Production Applications
-**Days 43–49 · 28 Sep – 4 Oct 2026** · Eval & Observability Platform (PORTFOLIO)
+**Days 43–49 · 30 November – 6 December 2026** · Eval & Observability Platform (PORTFOLIO)
 LLM-as-a-judge (the one eval technique absent from Phase 1), eval harness design,
 golden dataset construction, regression gates, tracing and observability tooling,
 user feedback loops, production dashboards. Builds on Days 12, 21, 22, 23.
 
 ### WEEK 8 · Agentic System Design
-**Days 50–56 · 5–11 Oct 2026** · Scalable Agent Runtime (MINI)
+**Days 50–56 · 7–13 December 2026** · Scalable Agent Runtime (MINI)
 Agent runtime architecture, state management, queueing and backpressure, horizontal
 scaling, failure isolation, concurrency at agent scale. Builds on Days 20, 22.
 
 ### WEEK 9 · Image, Multimodal & Reasoning Models
-**Days 57–63 · 12–18 Oct 2026** · Multimodal Document Processor (PORTFOLIO)
+**Days 57–63 · 14–20 December 2026** · Multimodal Document Processor (PORTFOLIO)
 Extends Day 26: vision-language architectures, document understanding at scale,
 OCR pipelines, chart and diagram reasoning, reasoning models and test-time compute.
 
 ### WEEK 10 · AI Security, Red Teaming & Responsible AI
-**Days 64–70 · 19–25 Oct 2026** · Red Team Your Own RAG System (PORTFOLIO)
+**Days 64–70 · 21–27 December 2026** · Red Team Your Own RAG System (PORTFOLIO)
 OWASP LLM Top 10, systematic adversarial testing (Garak, PyRIT), guardrail engineering,
 injection defences, bias and fairness metrics, model cards, EU AI Act / NIST AI RMF /
 ISO 42001. Builds on Day 25. See [`CURRICULUM_EXTENDED.md`](CURRICULUM_EXTENDED.md).
 
 ### WEEK 11 · Cloud-Native Deployment, LLMOps & Synthetic Data
-**Days 71–77 · 26 Oct – 1 Nov 2026** · Deploy a Production-Ready AI Service (PORTFOLIO)
+**Days 71–77 · 28 December 2026 – 3 January 2027** · Deploy a Production-Ready AI Service (PORTFOLIO)
 Cloud deployment, GPU autoscaling, CI/CD with eval gates, model registries, inference
 optimisation, synthetic data generation, feature stores and lineage, cost engineering
 and chargeback. Builds on Days 11, 22, 23, 24, 27.
 
 ### WEEK 12 · Capstone — Enterprise AI Assistant
-**Days 78–84 · 2–8 Nov 2026** · Full Capstone (CAPSTONE)
+**Days 78–84 · 4–10 January 2027** · Full Capstone (CAPSTONE)
 One integrated system: RAG + Agents + Eval + Security + Cloud Deploy, defended with
 ADRs, C4 diagrams, NFRs, risk assessment, deployment plan, security report.
 
