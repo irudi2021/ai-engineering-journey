@@ -48,7 +48,7 @@ Each week folder contains:
 
 ## Progress
 
-**Day 0 of 84.** Fresh run starts Monday, 19 October 2026. Day 1 (Tokenization) notes are already in `week-01/notes/`.
+**Day 0 of 84.** Fresh run starts Monday, 19 October 2026.
 
 ---
 

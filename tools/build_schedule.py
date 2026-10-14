@@ -178,7 +178,7 @@ Each week folder contains:
 
 ## Progress
 
-**Day 0 of 84.** Fresh run starts {long(1)}. Day 1 (Tokenization) notes are already in `week-01/notes/`.
+**Day 0 of 84.** Fresh run starts {long(1)}.
 
 ---
 
